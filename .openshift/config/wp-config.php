@@ -107,7 +107,7 @@ $table_prefix  = 'wp_';
  * de_DE.mo to wp-content/languages and set WPLANG to 'de_DE' to enable German
  * language support.
  */
-define('WPLANG', '');
+define('WPLANG', 'sv_SE');
 
 /**
  * For developers: WordPress debugging mode.
@@ -116,7 +116,6 @@ define('WPLANG', '');
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
  */
-define('WP_DEBUG', false);
 define('WP_DEBUG', false);
 define('WP_ALLOW_MULTISITE', true );
 define('MULTISITE', true);
